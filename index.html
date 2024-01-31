@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to Speech</title>
+    <link rel="icon" type="image/png/jpg" href="./fav.png" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <p>
+        <span onclick="location.reload()">
+          <span id="text">Text</span> To <span id="speech">Speech</span>
+        </span>  
+      </p>
+    </header>
+    <div class="container">
+      <textarea placeholder="Enter Your Text Here"></textarea>
+      <div class="buttons" id="btn">
+        <button type="button" class="button">
+          <div class="button-top">Start</div>
+          <div class="button-bottom"></div>
+          <div class="button-base"></div>
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
